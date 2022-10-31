@@ -18,7 +18,8 @@
 }
 
 @media (max-width:768px) {
-  .header { text-align: center;
+  .header { 
+    text-align: center;
   }
 }
 .main-content {
@@ -38,7 +39,9 @@
 .section_add-item {
   margin-bottom: 1em;
 }
-.section__button, .section__input_text, .section__input_checkbox{
+.section__button, 
+.section__input_text, 
+.section__input_checkbox{
   outline:none;
 }
 .section__button {
@@ -127,18 +130,21 @@
 }
 
 /* Edit Task */
-.section_new-task .section__input_text {
+.section_new-task 
+.section__input_text {
   display:flex;
 }
 .section__input_text {
   display:none
 }
 
-.section_edit-mode .section__input_text {
+.section_edit-mode 
+.section__input_text {
   display:inline-block;
   width:224px
 }
 
-.section_edit-mode .section__checkbox_text {
+.section_edit-mode 
+.section__checkbox_text {
   display:none;
 }
